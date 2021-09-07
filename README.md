@@ -1,5 +1,5 @@
 # Your universal cart
 
-[Imgur](https://imgur.com/ocbSCCQ)
-[Imgur](https://imgur.com/pUlbqsR)
-[Imgur](https://imgur.com/MxGue7p)
+![img](https://i.imgur.com/MxGue7p.png)
+![img](https://i.imgur.com/pUlbqsR.png)
+![img](https://i.imgur.com/ocbSCCQ.png)
