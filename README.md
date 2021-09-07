@@ -1,4 +1,5 @@
 # Your universal cart
 
-Lets pratice designing your main component
-# design-challenge
+[Imgur](https://imgur.com/ocbSCCQ)
+[Imgur](https://imgur.com/pUlbqsR)
+[Imgur](https://imgur.com/MxGue7p)
