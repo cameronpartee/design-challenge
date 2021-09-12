@@ -17,12 +17,6 @@
   backface-visibility: hidden;
 }
 
-/*
-.item img:hover {
-  opacity: 0.3;
-} 
-*/
-
 .item:hover .backdrop {
   opacity: 1;
 }
