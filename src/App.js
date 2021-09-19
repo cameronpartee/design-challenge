@@ -23,13 +23,13 @@ function App() {
         <Header onShowCart={showCartHandler} />
         <Switch>
           <Route path="/want">
-            <Container />
+            <Container purchased={false} />
           </Route>
           <Route path="/have">
-            <Container />
+            <Container purchased={true} />
           </Route>
           <Route path="/">
-            <Container />
+            <Container purchased={"all"} />
           </Route>
         </Switch>
       </CartProvider>
