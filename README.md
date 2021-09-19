@@ -1,5 +1,7 @@
 # Your universal cart
 
-![img](https://i.imgur.com/ocbSCCQ.png)
-![img](https://i.imgur.com/pUlbqsR.png)
-![img](https://i.imgur.com/MxGue7p.png)
+- Features
+  React Router
+  Styled Components
+
+![img](https://i.imgur.com/15HsjOw.png)
