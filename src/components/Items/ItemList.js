@@ -58,15 +58,87 @@ const DUMMY_ITEMS = [
     purchased: "true",
     img: "https://img.ltwebstatic.com/images3_pi/2021/05/28/1622187793b3ca16492c6595a5e2ab1165727ab86d_thumbnail_900x.webp",
   },
+  {
+    id: "8",
+    name: "SHEIN SXY High Waisted Ripped Flare Leg Jeans",
+    price: "22.00",
+    size: "W27 L32",
+    purchased: "false",
+    img: "https://img.ltwebstatic.com/images3_pi/2021/07/29/16275250747f12a7ab6ec800008a62c22e2bb1705c_thumbnail_405x552.webp",
+  },
+  {
+    id: "9",
+    name: "High Waist Ripped Detail Flare Leg Jeans",
+    price: "25.00",
+    size: "M",
+    purchased: "false",
+    img: "https://img.ltwebstatic.com/images3_pi/2020/12/16/16080867037780d06f6a87728bab6077d0e4d614b4_thumbnail_405x552.webp",
+  },
+  {
+    id: "10",
+    name: "SHEIN Snakeskin Print Split Hem Jeans",
+    price: "11.00",
+    size: "M",
+    purchased: "false",
+    img: "https://img.ltwebstatic.com/images3_pi/2021/06/23/16244197303daab2266e8e1c2820c2e16737c50878_thumbnail_405x552.webp",
+  },
+  {
+    id: "11",
+    name: "SHEIN Solid Open Back Cami Jumpsuit",
+    price: "19.00",
+    size: "M",
+    purchased: "false",
+    img: "https://img.ltwebstatic.com/images3_pi/2021/07/22/1626944247a8a0e3050ccc9be9c196c6f54c8d9a21_thumbnail_405x552.webp",
+  },
+  {
+    id: "12",
+    name: "SHEIN SXY Solid Lantern Sleeve Coat & Bodycon Dress",
+    price: "29.00",
+    size: "XS",
+    purchased: "false",
+    img: "https://img.ltwebstatic.com/images3_pi/2021/08/11/16286540362857ff50181e5e4c5c1bb30370361e03_thumbnail_405x552.webp",
+  },
+  {
+    id: "13",
+    name: "SHEIN SXY Criss Cross Tie Back Tank top",
+    price: "14.00",
+    size: "XS",
+    purchased: "false",
+    img: "https://img.ltwebstatic.com/images3_pi/2021/08/30/163028892646578b0d1a42ae44736738237f485045_thumbnail_405x552.webp",
+  },
+  {
+    id: "14",
+    name: "Dalmatian Print Square Neck Shirred Peplum Blouse",
+    price: "15.00",
+    size: "XS",
+    purchased: "false",
+    img: "https://img.ltwebstatic.com/images3_pi/2021/09/08/1631070022b2b901f517646218b0d02ed1d07e5239_thumbnail_405x552.webp",
+  },
+  {
+    id: "15",
+    name: "Polo Collar Drop Shoulder Striped Print Tee",
+    price: "15.00",
+    size: "XS",
+    purchased: "false",
+    img: "https://img.ltwebstatic.com/images3_pi/2021/08/03/162797094799c7a9a74f15cf8d526aa5646c0bba1d_thumbnail_405x552.webp",
+  },
 ];
 
 const ItemList = (props) => {
   // CREATE TWO LISTS
-  const purchased = DUMMY_ITEMS.filter((item) => item.purchased);
-  const notPurchased = DUMMY_ITEMS.filter((item) => !item.purchased);
+  const purchased = DUMMY_ITEMS.filter((item) => item.purchased === "true");
+  const notPurchased = DUMMY_ITEMS.filter((item) => item.purchased === "false");
 
   // USE PROPS TO DECIDE WHICH LIST TO SHOW
-  const filteredList = props.purchased ? purchased : notPurchased;
+  let filteredList;
+
+  if (props.purchased === "all") {
+    filteredList = DUMMY_ITEMS;
+  } else if (props.purchased) {
+    filteredList = purchased;
+  } else {
+    filteredList = notPurchased;
+  }
 
   // PASS LIST INTO CONTAINER VIEW
   const list = filteredList.map((item) => (
