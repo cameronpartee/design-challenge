@@ -1,10 +1,10 @@
 import classes from "./Container.module.css";
 import ItemList from "../Items/ItemList";
 
-export const Container = () => {
+export const Container = (props) => {
   return (
     <div className={classes.container}>
-      <ItemList purchased={"true"} />
+      <ItemList purchased={props.purchased} />
     </div>
   );
 };
