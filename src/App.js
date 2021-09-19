@@ -3,6 +3,7 @@ import Container from "./components/Layout/Container";
 import Cart from "./components/Cart/Cart";
 import { useState } from "react";
 import CartProvider from "./store/CartProvider";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
   const [cartIsShown, setCartIsShown] = useState(false);
@@ -16,11 +17,23 @@ function App() {
   };
 
   return (
-    <CartProvider>
-      {cartIsShown && <Cart onClose={hideCartHandler} />}
-      <Header onShowCart={showCartHandler} />
-      <Container />
-    </CartProvider>
+    <Router>
+      <CartProvider>
+        {cartIsShown && <Cart onClose={hideCartHandler} />}
+        <Header onShowCart={showCartHandler} />
+        <Switch>
+          <Route path="/want">
+            <Container />
+          </Route>
+          <Route path="/have">
+            <Container />
+          </Route>
+          <Route path="/">
+            <Container />
+          </Route>
+        </Switch>
+      </CartProvider>
+    </Router>
   );
 }
 
