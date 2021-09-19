@@ -4,7 +4,7 @@ import ItemList from "../Items/ItemList";
 export const Container = () => {
   return (
     <div className={classes.container}>
-      <ItemList />
+      <ItemList purchased={"true"} />
     </div>
   );
 };
