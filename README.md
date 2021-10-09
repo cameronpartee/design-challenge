@@ -1,8 +1,8 @@
-# Your universal cart
+# Your Universal Cart
 
 # Features
 
 - React Router
 - Styled Components
 
-![img](https://i.imgur.com/15HsjOw.png)
+![img](https://i.imgur.com/tSezXBi.png)
