@@ -34,14 +34,6 @@ const Board = () => {
     setFilter(userInput);
   };
 
-  // based off what tho?
-  // based off the user input - well lets work on that then
-
-  // if (hasFilters) {
-  //
-
-  // }
-
   return (
     <Container>
       <Title>REACT TEMPLATE</Title>
