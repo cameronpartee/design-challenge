@@ -1,8 +1,7 @@
-# Your universal cart
+# REACT TEMPLATE
 
 # Features
 
-- React Router
-- Styled Components
+Design exercise using react and styled components
 
-![img](https://i.imgur.com/15HsjOw.png)
+![img](https://i.imgur.com/tSezXBi.png)
