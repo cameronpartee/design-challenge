@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
-const Selection = () => {
-  return <Container></Container>;
+const Selection = (props) => {
+  return <Container>{props.item.name}</Container>;
 };
 
 export default Selection;
