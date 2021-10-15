@@ -1,17 +1,46 @@
 import styled from "styled-components";
 import Selection from "../Items/Selection";
+import FilterBar from "./FilterBar";
+import { useState, useEffect } from "react";
 
-// HERE WE WOULD PASS THE ARRAY OF OBJECTS AS A PROP
+const masterCopy = [
+  { id: 1, name: "Shirt", tags: ["top", "all", "new"] },
+  { id: 2, name: "Jeans", tags: ["bottom", "all"] },
+  { id: 3, name: "Skirt", tags: ["bottom", "all"] },
+  { id: 4, name: "Heel", tags: ["shoe", "all"] },
+  { id: 5, name: "Bodysuit", tags: ["top", "all", "new"] },
+  { id: 6, name: "Sneaker", tags: ["shoe", "all"] },
+];
+
+const Filters = ["top", "bottom", "dress", "shoe"];
+
 const Board = () => {
-  // FOR NOW LETS MAKE A VARIABLE
-  const boardItems = [1, 2, 3, 4, 5, 6, 7, 8, 10];
+  // dynamically setBoardItems
+  const [filter, setFilter] = useState("all");
+  const [boardItems, setBoardItems] = useState(masterCopy);
+
+  useEffect(() => {
+    setBoardItems([]);
+    let tempBoardItems = [];
+    masterCopy.forEach((item) => {
+      if (item.tags.includes(filter)) {
+        tempBoardItems.push(item);
+      }
+    });
+    setBoardItems(tempBoardItems);
+  }, [filter]);
+
+  const onChangeFilterHandler = (userInput) => {
+    setFilter(userInput);
+  };
+
   return (
     <Container>
       <Title>REACT TEMPLATE</Title>
-      <FilterBar></FilterBar>
+      <FilterBar onChange={onChangeFilterHandler}></FilterBar>
       <Content>
         {boardItems.map((item) => (
-          <Selection />
+          <Selection item={item} />
         ))}
       </Content>
     </Container>
@@ -29,12 +58,6 @@ const Title = styled.div`
   margin: auto;
   font-size: 2.5rem;
   text-align: center;
-`;
-
-const FilterBar = styled.div`
-  background: rgb(202, 202, 202);
-  border: 3px dashed rgb(192, 192, 192);
-  margin: 1.5%;
 `;
 
 const Content = styled.div`
