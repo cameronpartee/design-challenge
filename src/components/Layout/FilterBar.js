@@ -15,6 +15,7 @@ const FilterBar = (props) => {
           <option value="bottom">Bottoms</option>
           <option value="dress">Dresses</option>
           <option value="shoe">Shoes</option>
+          <option value="hair">Hair</option>
         </select>
       </Filter>
       <Filter>
