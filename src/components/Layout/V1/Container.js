@@ -1,5 +1,5 @@
 import classes from "./Container.module.css";
-import ItemList from "../Items/ItemList";
+import ItemList from "../../Items/V1/ItemList";
 
 export const Container = (props) => {
   return (

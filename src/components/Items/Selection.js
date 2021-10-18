@@ -1,15 +1,20 @@
 import styled from "styled-components";
+import SelectionImage from "./SelectionImage";
+import SelectionInfo from "./SelectionInfo";
 
 const Selection = (props) => {
-  return <Container>{props.item.name}</Container>;
+  return (
+    <Container>
+      <SelectionImage item={props.item} />
+      <SelectionInfo item={props.item} />
+    </Container>
+  );
 };
 
 export default Selection;
 
 const Container = styled.div`
+  height: 350px;
   width: 300px;
-  height: 400px;
-  background: rgb(202, 202, 202);
-  border: 3px dashed rgb(192, 192, 192);
   margin: auto;
 `;

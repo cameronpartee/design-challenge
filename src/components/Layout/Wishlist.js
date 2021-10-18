@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import Board from "./Board";
+import Sidebar from "./Sidebar/Sidebar";
 
 const Wishlist = () => {
   return (
@@ -19,7 +20,7 @@ const Container = styled.div`
   width: 100%;
   height: 100vh;
   display: grid;
-  grid-template-rows: 100px auto;
+  grid-template-rows: 50px auto;
 `;
 
 const Header = styled.div`
@@ -30,8 +31,4 @@ const Main = styled.div`
 display: grid;
 grid-template-columns 300px auto;
 background: rgb(224, 224, 224);
-`;
-
-const Sidebar = styled.div`
-  background: rgb(0, 51, 102);
 `;

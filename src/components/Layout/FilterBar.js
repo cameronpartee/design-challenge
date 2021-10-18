@@ -15,14 +15,17 @@ const FilterBar = (props) => {
           <option value="bottom">Bottoms</option>
           <option value="dress">Dresses</option>
           <option value="shoe">Shoes</option>
+          <option value="hair">Hair</option>
         </select>
       </Filter>
       <Filter>
         <label for="sort">Sort By</label>
         <select onChange={onSelectionChangeHandler}>
-          <option value="new">New Arrivals</option>
+          <option value="">Recently Added</option>
+          <option value="">Most Popular</option>
           <option value="low">Price Low to High</option>
           <option value="high">Price High to Low</option>
+          <option value="new">New Arrivals</option>
         </select>
       </Filter>
     </Container>
