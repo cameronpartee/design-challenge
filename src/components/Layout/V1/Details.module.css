@@ -1,0 +1,30 @@
+.details {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+  padding: 1%;
+}
+
+.info {
+  margin: 1%;
+  position: relative;
+}
+
+.price {
+  font-weight: bold;
+  font-size: 2.1rem;
+  color: rgb(206, 18, 18);
+}
+
+.name {
+  font-size: 1.4rem;
+}
+
+.bottom {
+  position: absolute;
+  bottom: 0;
+}
+
+.size {
+  font-size: 1.2rem;
+}
