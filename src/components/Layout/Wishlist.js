@@ -1,14 +1,20 @@
 import styled from "styled-components";
 import Board from "./Board";
-import Sidebar from "./Sidebar/Sidebar";
+import Navbar from "./Navbar/Navbar";
+import { useState } from "react";
 
 const Wishlist = () => {
+  const [toggleBoard, flipToggleBoard] = useState(true);
+
+  const tester = (name) => {
+    flipToggleBoard(name === "Home" ? true : false);
+  };
+
   return (
     <Container>
-      <Header></Header>
+      <Navbar test={tester}></Navbar>
       <Main>
-        <Sidebar></Sidebar>
-        <Board></Board>
+        <Board toggleBoard={toggleBoard}></Board>
       </Main>
     </Container>
   );
@@ -20,15 +26,11 @@ const Container = styled.div`
   width: 100%;
   height: 100vh;
   display: grid;
-  grid-template-rows: 50px auto;
-`;
-
-const Header = styled.div`
-  background: rgb(0, 25, 51);
+  grid-template-columns: 300px auto;
 `;
 
 const Main = styled.div`
 display: grid;
-grid-template-columns 300px auto;
-background: rgb(224, 224, 224);
+grid-template-rows auto;
+background: rgb(255, 255, 255);
 `;
