@@ -15,6 +15,6 @@ export default Selection;
 
 const Container = styled.div`
   height: 350px;
-  width: 300px;
+  width: 275px;
   margin: auto;
 `;
