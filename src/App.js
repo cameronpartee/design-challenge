@@ -1,64 +1,98 @@
-import Wishlist from "./components/Layout/Wishlist";
+import styled from "styled-components";
+import Board from "./components/Layout/Board";
+import cartData from "./data/cart.json";
+import closetData from "./data/closet.json";
+import { useState, useEffect } from "react";
+import Navbar from "./components/Layout/Navbar/Navbar";
+import FilterBar from "./components/Layout/FilterBar";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+import Builder from "./pages/Builder";
 
 function App() {
-  return <Wishlist />;
-}
+  const { masterCart } = cartData;
+  const { masterCloset } = closetData;
 
+  const [filter, setFilter] = useState("all");
+  const [breadcrumbPath, setBreadcrumbPath] = useState("");
+  const [cartBoardItems, setCartBoardItems] = useState(masterCart.reverse());
+  const [closetBoardItems, setClosetBoardItems] = useState(
+    masterCloset.reverse()
+  );
+
+  const onNavbarClickHandler = (path) => {
+    setBreadcrumbPath(path);
+  };
+
+  const onChangeFilterHandler = (userInput) => {
+    setFilter(userInput);
+  };
+
+  useEffect(() => {
+    setCartBoardItems([]);
+    setClosetBoardItems([]);
+
+    let tempCartBoardItems = [];
+    let tempClosetBoardItems = [];
+
+    masterCloset.forEach((item) => {
+      if (item.tags.includes(filter)) {
+        tempClosetBoardItems.push(item);
+      }
+    });
+    setClosetBoardItems(tempClosetBoardItems);
+
+    masterCart.forEach((item) => {
+      if (item.tags.includes(filter)) {
+        tempCartBoardItems.push(item);
+      }
+    });
+    setCartBoardItems(tempCartBoardItems);
+  }, [filter]);
+
+  return (
+    <BrowserRouter>
+      <Container>
+        <Navbar onClick={onNavbarClickHandler}></Navbar>
+        <Main>
+          <FilterBar onChange={onChangeFilterHandler}></FilterBar>
+          <Breadcrumb>{`home/${breadcrumbPath.toLowerCase()}/${filter}`}</Breadcrumb>
+          <Switch>
+            <Route exact path="/Builder" component={Builder} />
+            <Route
+              exact
+              path="/Cart"
+              component={() => <Board boardItems={cartBoardItems}></Board>}
+            />
+            <Route
+              exact
+              path="/Closet"
+              component={() => <Board boardItems={closetBoardItems}></Board>}
+            />
+          </Switch>
+        </Main>
+      </Container>
+    </BrowserRouter>
+  );
+}
 export default App;
 
-/*
+const Container = styled.div`
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 185px auto;
+`;
 
-// import Header from "./components/Layout/V1/Header";
-// import Container from "./components/Layout/V1/Container";
-// import Cart from "./components/Cart/Cart";
-// import { useState } from "react";
-// import CartProvider from "./store/CartProvider";
-// import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+const Main = styled.div`
+display: grid;
+grid-template-rows 80px 60px auto; 
+background: rgb(255, 255, 255);
+`;
 
-
- const [cartIsShown, setCartIsShown] = useState(false);
-
-  const showCartHandler = () => {
-    setCartIsShown(true);
-  };
-
-  const hideCartHandler = () => {
-    setCartIsShown(false);
-  };
-
-  const DUMMY_ITEMS_COPY = [
-    {
-      id: "10",
-      name: "SHEIN Snakeskin Print Split Hem Jeans",
-      price: "11.00",
-      size: "M",
-      purchased: "false",
-      img: "https://img.ltwebstatic.com/images3_pi/2021/06/23/16244197303daab2266e8e1c2820c2e16737c50878_thumbnail_405x552.webp",
-      website:
-        "https://us.shein.com/SHEIN-Snakeskin-Print-Split-Hem-Jeans-p-2390970-cat-1934.html",
-      brand: "Shein",
-    },
-  ];
-
-  
-    // <Router>
-    //   <CartProvider>
-    //     {cartIsShown && <Cart onClose={hideCartHandler} />}
-    //     <Header onShowCart={showCartHandler} />
-    //     <Switch>
-    //       <Route path="/details">
-    //         <Details item={DUMMY_ITEMS_COPY[0]} />
-    //       </Route>
-    //       <Route path="/want">
-    //         <Container purchased={false} />
-    //       </Route>
-    //       <Route path="/have">
-    //         <Container purchased={true} />
-    //       </Route>
-    //       <Route path="/">
-    //         <Container purchased={"all"} />
-    //       </Route>
-    //     </Switch>
-    //   </CartProvider>
-    // </Router>
-*/
+const Breadcrumb = styled.div`
+  font-size: 0.9rem;
+  color: grey;
+  font-weight: 600;
+  margin: auto;
+  margin-left: 55px;
+`;
