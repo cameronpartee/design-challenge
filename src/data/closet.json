@@ -1,0 +1,211 @@
+{
+    "masterCloset": [
+        {
+          "id": 1,
+          "name": "Brown Cord Button Down Blouse",
+          "price": "22",
+          "size": "XS(2)",
+          "tags": ["top", "all", "shein"],
+          "img": "https://i.imgur.com/NWYfJ4c.jpg",
+          "url": "https://us.shein.com/SHEIN-Patch-Pocket-Button-Placket-Cord-Blouse-p-1739500-cat-1733.html"
+        },
+        {
+          "id": 2,
+          "name": "Belted Blazer & Pants Set",
+          "price": "22",
+          "size": "Petite M",
+          "tags": ["set", "all", "shein"],
+          "img": "https://i.imgur.com/IkNAsKx.png",
+          "url": "https://us.shein.com/SHEIN-PETITE-Solid-Lapel-Neck-Belted-Blazer-Pants-Set-p-3217110-cat-1780.html"
+        },
+        {
+          "id": 3,
+          "name": "Split Hem Jeans",
+          "price": "27",
+          "size": "M(6)",
+          "tags": ["bottom", "all", "shein"],
+          "img": "https://img.ltwebstatic.com/images3_pi/2021/05/31/1622437569fed1ba7c6257229332781f539dcbaa08_thumbnail_900x.webp",
+          "url": "https://us.shein.com/SHEIN-SXY-Ripped-Detail-Split-Hem-Jeans-p-2319456-cat-1934.html"
+        },
+        {
+          "id": 4,
+          "name": "Flare Leg Jeans",
+          "price": "25",
+          "size": "M(6)",
+          "tags": ["bottom", "all", "shein"],
+          "img": "https://i.imgur.com/AF7LoVw.jpg",
+          "url": "https://us.shein.com/High-Waist-Ripped-Detail-Flare-Leg-Jeans-p-1835649-cat-1934.html"
+        },
+        {
+          "id": 5,
+          "name": "Ripped Flare Leg Jeans",
+          "price": "16",
+          "size": "W28 L32",
+          "tags": ["bottom", "all", "shein"],
+          "img": "https://img.ltwebstatic.com/images3_pi/2021/07/29/16275250747f12a7ab6ec800008a62c22e2bb1705c_thumbnail_900x.webp",
+          "url": "https://us.shein.com/SHEIN-SXY-High-Waisted-Ripped-Flare-Leg-Jeans-p-2948531-cat-1934.html"
+        },
+        {
+          "id": 6,
+          "name": "Asymmetrical Hem Jeans",
+          "price": "10",
+          "size": "27",
+          "tags": ["bottom", "all", "shein"],
+          "img": "https://i.imgur.com/2UOQFfJ.jpg",
+          "url": "https://us.shein.com/SHEIN-SXY-Washed-Asymmetrical-Raw-Hem-Jeans-p-3170334-cat-1934.html"
+        },
+        {
+          "id": 7,
+          "name": "Scrunch Maxi Dress",
+          "price": "24",
+          "size": "M(6)",
+          "tags": ["dress", "all", "shein"],
+          "img": "https://i.imgur.com/CCU8iLj.jpg",
+          "url": "https://us.shein.com/SHEIN-SXY-Press-Crease-Tube-Bodycon-Dress-Open-Front-Coat-p-3216644-cat-1780.html"
+        },
+        {
+          "id": 8,
+          "name": "Blue Rib-knit Bodysuit",
+          "price": "14",
+          "size": "M(6)",
+          "tags": ["top", "all", "shein"],
+          "img": "https://i.imgur.com/lnA50Ta.jpg",
+          "url": "https://us.shein.com/SHEIN-Scoop-Neck-Rib-knit-Bodysuit-p-3294408-cat-1882.html"
+        },
+        {
+          "id": 9,
+          "name": "Silky Brown Button Down Blouse",
+          "price": "34.99",
+          "size": "XS(2)",
+          "tags": ["top", "all", "shein"],
+          "img": "https://img.ltwebstatic.com/images3_pi/2021/04/19/161883127627902f3bcc500db9cd848039c4641cf4_thumbnail_900x.webp",
+          "url": "https://us.shein.com/MOTF-PREMIUM-OVERSIZE-BATWING-SLEEVE-BLOUSE-p-2288561-cat-1733.html"
+        },
+        {
+          "id": 10,
+          "name": "A-Line Halloween Skirt",
+          "price": "7",
+          "size": "M(6)",
+          "tags": ["bottom", "all", "shein"],
+          "img": "https://i.imgur.com/rwXfbie.jpg",
+          "url": "https://us.shein.com/SHEIN-High-Waist-A-Line-Halloween-Print-Contrast-Binding-Skirt-p-3245782-cat-1732.html"
+        },
+        {
+          "id": 11,
+          "name": "Asymmetrical Top & Flare Pants",
+          "price": "19",
+          "size": "M(6)",
+          "tags": ["all", "shein", "set", "fallclothinghaul"],
+          "img": "https://img.ltwebstatic.com/images3_pi/2021/09/27/1632710641ad2b2d237ee07d092da40ce5285fee25_thumbnail_900x.webp",
+          "url": "https://us.shein.com/SHEIN-SXY-Ribbed-Knit-Asymmetrical-Hem-Cami-Top-Flare-Leg-Pants-p-4524981-cat-1780.html"
+        },
+        {
+          "id": 12,
+          "name": "Solid Brown Flare Leg Jeans",
+          "price": "15",
+          "size": "27",
+          "tags": ["all", "shein", "shein", "bottom", "fallclothinghaul"],
+          "img": "https://img.ltwebstatic.com/images3_pi/2021/08/23/1629721908dc3267f80ac9a0c4ac89ccc7bc8db439_thumbnail_900x.webp",
+          "url": "https://us.shein.com/SHEIN-SXY-Solid-Flare-Leg-Jeans-p-3170601-cat-1934.html"
+        },
+        {
+          "id": 13,
+          "name": "High Waist STAR Flare Leg Jeans",
+          "price": "25",
+          "size": "M(6)",
+          "tags": ["all", "shein", "bottom", "fallclothinghaul"],
+          "img": "https://i.imgur.com/4rp2p7Y.jpg",
+          "url": "https://us.shein.com/High-Waist-Flare-Leg-Jeans-p-1835643-cat-1934.html"
+        },
+        {
+          "id": 14,
+          "name": "Solid Ruched Bodycon Dress",
+          "price": "15",
+          "size": "M(6)",
+          "tags": ["all", "new", "shein", "dress", "fallclothinghaul"],
+          "img": "https://img.ltwebstatic.com/images3_pi/2021/08/06/16282208626447e5270bffe018cb96378c4d1dd6bc_thumbnail_900x.webp",
+          "url": "https://us.shein.com/SHEIN-SXY-Solid-Ruched-Bodycon-Dress-p-3124930-cat-1727.html"
+        },
+        {
+          "id": 15,
+          "name": "Puffy Sleeve Blouse",
+          "price": "11",
+          "size": "M(6)",
+          "tags": ["top", "all", "shein"],
+          "img": "https://i.imgur.com/689qbuQ.jpg",
+          "url": "https://us.shein.com/Square-Neck-Split-Hem-Bishop-Sleeve-Shirred-Blouse-p-2842079-cat-1733.html"
+        },
+        {
+          "id": 16,
+          "name": "Solid Red Tank Bodysuit",
+          "price": "12.00",
+          "size": "S(4)",
+          "tags": ["all", "new", "shein", "top"],
+          "img": "https://i.imgur.com/czB5k2s.jpg",
+          "url": "https://us.shein.com/SHEIN-Solid-Tank-Bodysuit-p-3294513-cat-1882.html"
+        },
+        {
+          "id": 17,
+          "name": "Striped Twist-Back Cropped Sweater",
+          "price": "19.00",
+          "size": "S(4)",
+          "tags": ["all", "new", "shein", "top"],
+          "img": "https://i.imgur.com/S1DPWyA.jpg",
+          "url": "https://us.shein.com/SHEIN-Striped-Twist-Back-Cropped-Sweater-p-1463774-cat-1734.html"
+        },
+        {
+          "id": 18,
+          "name": "Gold Flecks In Your Edges Top",
+          "price": "22.99",
+          "size": "S",
+          "tags": ["all", "new", "fashionnova", "top"],
+          "img": "https://cdn.shopify.com/s/files/1/0293/9277/products/12-10-19_STUDIO_2_BR_LE_11-08-53_15_T30303T_Ivorycombo_CROP_22566_NT_468x@2x.jpg?v=1580259462",
+          "url": "https://www.fashionnova.com/products/gold-flecks-in-your-edges-top-ivory-combo?variant=12197927747708"
+        },
+        {
+          "id": 19,
+          "name": "Black Trench Demin Jacket",
+          "price": "29.99",
+          "size": "M",
+          "tags": ["all", "new", "fashionnova", "jacket"],
+          "img": "https://cdn.shopify.com/s/files/1/0293/9277/products/08-13-19_Studio_2_MA_14-52-23_36_RJK3447_Black_0270_WG_468x@2x.jpg?v=1583948298",
+          "url": "https://www.fashionnova.com/products/never-fray-never-distressed-denim-shirt-black?variant=12195943022716"
+        },
+        {
+          "id": 20,
+          "name": "Stripe Shirt - Black/White",
+          "price": "29.99",
+          "size": "S",
+          "tags": ["all", "new", "fashionnova", "top"],
+          "img": "https://i.imgur.com/gCuoNrH.jpg",
+          "url": "https://www.fashionnova.com/products/cant-compare-to-me-stripe-shirt-black-white?variant=12206230372476"
+        },
+        {
+          "id": 21,
+          "name": "Floral Emotions Top - White/Combo",
+          "price": "22.99",
+          "size": "S",
+          "tags": ["all", "new", "fashionnova", "top"],
+          "img": "https://cdn.shopify.com/s/files/1/0293/9277/products/01-16-19_Studio_2_DV_13-14-44_T20756MDI_WhiteCombo_18_NT_468x@2x.jpg?v=1571439939",
+          "url": "https://www.fashionnova.com/products/floral-emotions-top-white-combo?variant=12189555523708"
+        },
+        {
+          "id": 22,
+          "name": "Brunch Is On Me Sweater Set - Orange",
+          "price": "57.99",
+          "size": "S",
+          "tags": ["all", "new", "fashionnova", "top"],
+          "img": "https://i.imgur.com/b9RXSru.jpg",
+          "url": "https://www.fashionnova.com/products/brunch-is-on-me-sweater-set-orange?variant=12203607851132"
+        },
+        {
+          "id": 23,
+          "name": "Always In Check Oversized Flannel Top - Black/combo",
+          "price": "14.99",
+          "size": "S",
+          "tags": ["all", "new", "fashionnova", "top"],
+          "img": "https://i.imgur.com/aSIP9Of.jpg",
+          "url": "https://www.fashionnova.com/products/always-in-check-oversized-flannel-top-black-combo?variant=12202814079100"
+        }
+    ]
+}

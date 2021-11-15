@@ -1,0 +1,121 @@
+{
+    "masterCart": [
+        {
+          "id": 1,
+          "name": "Oculus Quest 2 VR Headset",
+          "price": "299",
+          "size": "128 GB",
+          "tags": ["all", "target", "tech"],
+          "img": "https://i5.walmartimages.com/asr/16a9974e-a5b0-4cad-a98e-730148409bef.3e8858a1d3beb01ff2fbc79a880beedf.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+          "url": "https://www.walmart.com/ip/Oculus-Quest-2-All-In-One-VR-Headset-128-GB/723227733?wmlspartner=wlpa&selectedSellerId=0&wl13=3775&adid=22222222420450916370&wmlspartner=wmtlabs&wl0=&wl1=g&wl2=c&wl3=547331341345&wl4=aud-1307710396940:pla-293946777986&wl5=9010937&wl6=&wl7=&wl8=&wl9=pla&wl10=8175035&wl11=local&wl12=723227733&wl13=3775&veh=sem_LIA&gclid=CjwKCAjwq9mLBhB2EiwAuYdMtbTmA3CMd_QDXybTDuyjURlOwabqBkUI6j78wTRPY0ckOclSgo7VqBoC2cQQAvD_BwE&gclsrc=aw.ds"
+        },
+        {
+          "id": 2,
+          "name": "Wmns Dunk Low 'Light Bone'",
+          "price": "193",
+          "size": "7W",
+          "tags": ["shoe", "all", "nike"],
+          "img": "https://image.goat.com/crop/750/attachments/product_template_additional_pictures/images/060/558/537/original/778291_01.jpg.jpeg?1631906637",
+          "url": "https://www.goat.com/sneakers/wmns-dunk-low-light-bone-dd1503-107?utm_source=google_int&utm_medium=google_shopping_int&utm_campaign=14323870519_134709671228&utm_content=540105504230_&utm_term=195238099381&gclid=CjwKCAjwk6-LBhBZEiwAOUUDp2rpklIc5ZP-noGtun5andqnXzj2ayFnc9WBSDSt8377NuLUv0uCihoCOKgQAvD_BwE"
+        },
+        {
+          "id": 3,
+          "name": "Chocolate Brown Human Hair",
+          "price": "312.09",
+          "size": "22 13x4 180%",
+          "tags": ["wig", "all"],
+          "img": "https://cdn.wigginshair.com/media/catalog/product/cache/1/image/600x/040ec09b1e35df139433887a97daa66f/_/4/_4_loose_deep_wave_wig_5.jpg",
+          "url": "https://www.wigginshair.com/4-chocolate-brown-wigs-human-hair-loose-deep-wave-lace-front-wigs-for-sale.html"
+        },
+        {
+          "id": 4,
+          "name": "Kallan Knit Dress - Black",
+          "price": "23.99",
+          "size": "M",
+          "tags": ["new", "all", "dress", "fashionnova"],
+          "img": "https://cdn.shopify.com/s/files/1/0293/9277/products/KallanKnitDress-Black_MER_468x@2x.jpg?v=1585952726",
+          "url": "https://www.fashionnova.com/products/kallan-knit-dress-black?variant=35881394385"
+        },
+        {
+          "id": 5,
+          "name": "Kasey Bandage Mini Dress - Hunter",
+          "price": "26.99",
+          "size": "M",
+          "tags": ["new", "all", "dress", "fashionnova"],
+          "img": "https://cdn.shopify.com/s/files/1/0293/9277/products/10-11-19_Studio_2_MA_KY_11-23-49_21_KC147_Hunter_CC_0507_JK_NT_468x@2x.jpg?v=1572886507",
+          "url": "https://www.fashionnova.com/products/kasey-bandage-mini-dress-hunter?variant=12196444307580"
+        },
+        {
+          "id": 6,
+          "name": "Araxie Vegan Leather Jacket - Black",
+          "price": "29.99",
+          "size": "S",
+          "tags": ["new", "all", "jacket", "fashionnova"],
+          "img": "https://cdn.shopify.com/s/files/1/0293/9277/products/AraxieVeganLeatherJacket-Black_MER_468x@2x.jpg?v=1603410016",
+          "url": "https://www.fashionnova.com/products/araxie-vegan-leather-jacket-black?variant=28272625745"
+        },
+        {
+          "id": 7,
+          "name": "Serves You Right Faux Leather Puffer",
+          "price": "29.99",
+          "size": "S",
+          "tags": ["new", "all", "jacket", "fashionnova"],
+          "img": "https://cdn.shopify.com/s/files/1/0293/9277/products/10-15-21Studio2_ME_RL_10-48-47_23_8170JM_Black_0409_EH_468x@2x.jpg?v=1634595882",
+          "url": "https://www.fashionnova.com/products/serves-you-right-faux-leather-puffer-black?variant=39247420751996"
+        },
+        {
+          "id": 8,
+          "name": "Solid Tank Bodysuit",
+          "price": "12.00",
+          "size": "M(6)",
+          "tags": ["new", "all", "top", "shein"],
+          "img": "https://img.ltwebstatic.com/images3_pi/2020/11/19/1605786632d328f06bb1a7ced74b4f9d9a0c0336f4_thumbnail_900x.webp",
+          "url": "https://us.shein.com/SHEIN-Solid-Tank-Bodysuit-p-1833345-cat-1882.html"
+        },
+        {
+          "id": 8,
+          "name": "Square Neck Rib-knit Tee",
+          "price": "10.00",
+          "size": "M(6)",
+          "tags": ["new", "all", "top", "shein"],
+          "img": "https://img.ltwebstatic.com/images3_pi/2020/12/22/160861131869655af756dc9f0e48f0803d69e652e2_thumbnail_900x.webp",
+          "url": "https://us.shein.com/SHEIN-Square-Neck-Rib-knit-Tee-p-1940719-cat-1738.html"
+        },
+        {
+          "id": 9,
+          "name": "Rib-knit Form Fitted Solid Tee",
+          "price": "7.00",
+          "size": "M(6)",
+          "tags": ["new", "all", "top", "shein"],
+          "img": "https://img.ltwebstatic.com/images3_pi/2020/11/28/1606540792c52f948f360a9a7c41cc89067145ee63_thumbnail_900x.webp",
+          "url": "https://us.shein.com/SHEIN-Rib-knit-Form-Fitted-Solid-Tee-p-1813783-cat-1738.html"
+        },
+        {
+          "id": 10,
+          "name": "Zip Up Puffer Vest",
+          "price": "18.00",
+          "size": "S(4)",
+          "tags": ["new", "all", "top", "shein"],
+          "img": "https://img.ltwebstatic.com/images3_pi/2021/10/07/163361463329f42b2d9bc1b2a9bd5c460e46a963ae_thumbnail_900x.webp",
+          "url": "https://us.shein.com/Solid-Zip-Up-Puffer-Vest-p-4623522-cat-3052.html"
+        },
+        {
+          "id": 11,
+          "name": "Lace Up Front Skate Shoes",
+          "price": "28.00",
+          "size": "EUR38(7)",
+          "tags": ["new", "all", "shoe", "shein"],
+          "img": "https://img.ltwebstatic.com/images3_pi/2021/09/03/16306329322c3aeb2a5151465520e9fc50a9c4071c_thumbnail_900x.webp",
+          "url": "https://us.shein.com/Colorblock-Lace-Up-Front-Skate-Shoes-p-3953011-cat-1913.html"
+        },
+        {
+          "id": 12,
+          "name": "Rolled Hem Cropped Jeans",
+          "price": "10.00",
+          "size": "27",
+          "tags": ["new", "all", "bottom", "shein"],
+          "img": "https://img.ltwebstatic.com/images3_pi/2021/09/09/163115085328cec6996b4dd8193e9c282a6004d420_thumbnail_900x.webp",
+          "url": "https://us.shein.com/SHEIN-SXY-Rolled-Hem-Cropped-Jeans-p-3415472-cat-1934.html"
+        }
+    ]
+}
