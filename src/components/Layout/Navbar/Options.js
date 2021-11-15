@@ -1,22 +1,24 @@
 import styled from "styled-components";
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 const Options = (props) => {
-  const [option, setOption] = useState("");
+  const [path, setPath] = useState("Home");
 
   const updateOptionsHandler = (e) => {
-    setOption(e.target.innerText);
+    setPath(e.target.innerText);
   };
 
   useEffect(() => {
-    props.test(option);
-  }, [option, props]);
+    props.onClick(path);
+  }, [path, props]);
 
   const displayList = Object.keys(props.navbarList).map((key) => (
-    <Option onClick={updateOptionsHandler}>
-      {props.navbarList[key]}
-      {key}
-    </Option>
+    <Link to={`/${path}`}>
+      <Option onClick={updateOptionsHandler}>
+        {props.navbarList[key]} {key}
+      </Option>
+    </Link>
   ));
 
   return (
@@ -43,12 +45,18 @@ const Container = styled.div`
 `;
 
 const Option = styled.div`
-  padding-top: 10px;
-  font-size: 1.2rem;
+  padding-top: 5px;
+  font-size: 0.7em;
+  font-weight: 600;
   display: flex;
   align-items: center;
 
   &:hover {
-    font-size: 1.25rem;
+    font-size: 0.75rem;
+  }
+
+  svg {
+    font-size: 1.3em;
+    margin-right: 5px;
   }
 `;

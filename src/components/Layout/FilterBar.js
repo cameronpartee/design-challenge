@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 const FilterBar = (props) => {
-  console.log(props);
   const onSelectionChangeHandler = (e) => {
     props.onChange(e.target.value);
   };
@@ -29,8 +28,8 @@ const FilterBar = (props) => {
           <option value="target">Target</option>
           <option value="nike">Nike</option>
           <option value="amazon">Amazon</option>
-          <option value="inkbox">Inkbox</option>
           <option value="shein">Shein</option>
+          <option value="fashionnova">Fashion Nova</option>
         </select>
       </Filter>
       <Filter>
@@ -56,21 +55,16 @@ const Container = styled.div`
 
 const Filter = styled.div`
   label {
-    font-size: 1.1rem;
+    font-size: 0.9rem;
     padding-right: 10px;
   }
   select {
-    font-size: 1.1rem;
-    width: 250px;
-    height: 25px;
+    font-size: 0.8rem;
+    width: 200px;
+    height: 20px;
 
     &:hover {
       cursor: pointer;
     }
   }
 `;
-
-/*
-background: rgb(202, 202, 202);
-border: 3px dashed rgb(192, 192, 192);
-*/

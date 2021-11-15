@@ -2,7 +2,8 @@ import styled from "styled-components";
 import HomeIcon from "@material-ui/icons/Home";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import ChevronRightIcon from "@material-ui/icons/ChevronRight";
-import AddShoppingCartIcon from "@material-ui/icons/AddShoppingCart";
+import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
+import BuildIcon from "@material-ui/icons/Build";
 import { useState } from "react";
 import Options from "./Options";
 
@@ -12,12 +13,13 @@ const navbarData = {
   key: "1",
   title: "DIGITAL CLOSET",
   list: {
-    Home: <HomeIcon />,
-    "Universal Cart": <AddShoppingCartIcon />,
+    Builder: <BuildIcon />,
+    Cart: <ShoppingCartIcon />,
+    Closet: <HomeIcon />,
   },
 };
 
-const Navbar = ({ test }) => {
+const Navbar = ({ onClick }) => {
   const [showList, flipShowList] = useState(false);
 
   const onShowListHandler = () => {
@@ -29,13 +31,17 @@ const Navbar = ({ test }) => {
 
   return (
     <Container>
-      <div>EXPLORER</div>
+      <Top>EXPLORER</Top>
       <MainSection>
         <Title onClick={onShowListHandler}>
           {showList ? ChevronIcon : expandIcon}
           <Text>{navbarData.title}</Text>
         </Title>
-        <Options test={test} showList={showList} navbarList={navbarData.list} />
+        <Options
+          onClick={onClick}
+          showList={showList}
+          navbarList={navbarData.list}
+        />
       </MainSection>
     </Container>
   );
@@ -51,10 +57,11 @@ const Container = styled.div`
   border: 1px solid rgb(224, 224, 224);
 `;
 
-/*
- background: rgb(202, 202, 202);
-  border: 3px dashed rgb(192, 192, 192);
-*/
+const Top = styled.div`
+  font-size: 0.7em;
+  font-weight: 600;
+  color: grey;
+`;
 
 const MainSection = styled.div`
   padding: 5px;
@@ -67,6 +74,6 @@ const Title = styled.div`
 `;
 
 const Text = styled.div`
-  font-weight: bold;
-  font-size: 1rem;
+  font-size: 0.8rem;
+  font-weight: 600;
 `;
