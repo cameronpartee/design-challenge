@@ -13,6 +13,7 @@ const FilterBar = (props) => {
           <option value="all">All</option>
           <option value="top">Tops</option>
           <option value="bottom">Bottoms</option>
+          <option value="jacket">Jackets</option>
           <option value="dress">Dresses</option>
           <option value="set">Sets</option>
           <option value="shoe">Shoes</option>

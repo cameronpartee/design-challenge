@@ -1,13 +1,17 @@
 import styled from "styled-components";
 
 const SelectionImage = (props) => {
+  const handleClick = () => {
+    window.open(props.item.url);
+  };
+
   const isNew = props.item.tags.includes("new");
   const isOTW = props.item.tags.includes("otw");
   return (
     <Container>
       {isNew && <New>New</New>}
       {isOTW && <OTW>Otw</OTW>}
-      <img src={props.item.img} alt={props.item.name} />
+      <img src={props.item.img} alt={props.item.name} onClick={handleClick} />
     </Container>
   );
 };
