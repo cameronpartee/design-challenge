@@ -1,0 +1,49 @@
+{
+    "masterStyleBook": [
+        {
+            "id": 1,
+            "name": "Oversized button down with crop top and high waisted jeans",
+            "price": "",
+            "size": "",
+            "tags": [],
+            "img": "https://i.imgur.com/wL4sMge.png",
+            "url": ""
+        },
+        {
+            "id": 2,
+            "name": "monochromeatic with see through top and dress pants",
+            "price": "",
+            "size": "",
+            "tags": [],
+            "img": "https://i.imgur.com/2R8XDFM.png",
+            "url": ""
+        },
+        {
+            "id": 3,
+            "name": "White crop top with open brown top",
+            "price": "",
+            "size": "",
+            "tags": [],
+            "img": "https://i.imgur.com/z7I6i68.png",
+            "url": ""
+        },
+        {
+            "id": 4,
+            "name": "Skirt with tee tucked in",
+            "price": "",
+            "size": "",
+            "tags": [],
+            "img": "https://i.imgur.com/Em00yUv.png",
+            "url": ""
+        },
+        {
+            "id": 5,
+            "name": "Tan dress, tan coat, tan purse",
+            "price": "",
+            "size": "",
+            "tags": [],
+            "img": "https://i.imgur.com/y9pMXQF.png",
+            "url": ""
+        }
+    ]
+}

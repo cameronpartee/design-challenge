@@ -1,0 +1,33 @@
+.item {
+  width: 35rem;
+  height: 25rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.item img {
+  height: 90%;
+}
+
+.name {
+  height: 47px;
+  padding: 2%;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  max-height: 280px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2%;
+}
+
+.price {
+  font-weight: bold;
+}

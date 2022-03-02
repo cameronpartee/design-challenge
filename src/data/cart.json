@@ -1,0 +1,58 @@
+{
+    "masterCart": [
+        {
+          "id": 3,
+          "name": "Chocolate Brown Human Hair",
+          "price": "312.09",
+          "size": "22 13x4 180%",
+          "tags": ["wig", "all"],
+          "img": "https://cdn.wigginshair.com/media/catalog/product/cache/1/image/600x/040ec09b1e35df139433887a97daa66f/_/4/_4_loose_deep_wave_wig_5.jpg",
+          "url": "https://www.wigginshair.com/4-chocolate-brown-wigs-human-hair-loose-deep-wave-lace-front-wigs-for-sale.html"
+        },
+        {
+          "id": 4,
+          "name": "Kallan Knit Dress - Black",
+          "price": "23.99",
+          "size": "M",
+          "tags": ["new", "all", "dress", "fashionnova"],
+          "img": "https://cdn.shopify.com/s/files/1/0293/9277/products/KallanKnitDress-Black_MER_468x@2x.jpg?v=1585952726",
+          "url": "https://www.fashionnova.com/products/kallan-knit-dress-black?variant=35881394385"
+        },
+        {
+          "id": 5,
+          "name": "Kasey Bandage Mini Dress - Hunter",
+          "price": "26.99",
+          "size": "M",
+          "tags": ["new", "all", "dress", "fashionnova"],
+          "img": "https://cdn.shopify.com/s/files/1/0293/9277/products/10-11-19_Studio_2_MA_KY_11-23-49_21_KC147_Hunter_CC_0507_JK_NT_468x@2x.jpg?v=1572886507",
+          "url": "https://www.fashionnova.com/products/kasey-bandage-mini-dress-hunter?variant=12196444307580"
+        },
+        {
+          "id": 6,
+          "name": "Araxie Vegan Leather Jacket - Black",
+          "price": "29.99",
+          "size": "S",
+          "tags": ["new", "all", "jacket", "fashionnova"],
+          "img": "https://cdn.shopify.com/s/files/1/0293/9277/products/AraxieVeganLeatherJacket-Black_MER_468x@2x.jpg?v=1603410016",
+          "url": "https://www.fashionnova.com/products/araxie-vegan-leather-jacket-black?variant=28272625745"
+        },
+        {
+          "id": 7,
+          "name": "Serves You Right Faux Leather Puffer",
+          "price": "29.99",
+          "size": "S",
+          "tags": ["new", "all", "jacket", "fashionnova"],
+          "img": "https://cdn.shopify.com/s/files/1/0293/9277/products/10-15-21Studio2_ME_RL_10-48-47_23_8170JM_Black_0409_EH_468x@2x.jpg?v=1634595882",
+          "url": "https://www.fashionnova.com/products/serves-you-right-faux-leather-puffer-black?variant=39247420751996"
+        },
+        {
+          "id": 10,
+          "name": "Zip Up Puffer Vest",
+          "price": "18.00",
+          "size": "S(4)",
+          "tags": ["new", "all", "top", "shein"],
+          "img": "https://img.ltwebstatic.com/images3_pi/2021/10/07/163361463329f42b2d9bc1b2a9bd5c460e46a963ae_thumbnail_900x.webp",
+          "url": "https://us.shein.com/Solid-Zip-Up-Puffer-Vest-p-4623522-cat-3052.html"
+        }
+    ]
+}
