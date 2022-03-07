@@ -2,47 +2,110 @@
     "masterStyleBook": [
         {
             "id": 1,
-            "name": "Oversized button down with crop top and high waisted jeans",
+            "name": "Black pleated skirt",
             "price": "",
             "size": "",
-            "tags": [],
-            "img": "https://i.imgur.com/wL4sMge.png",
+            "tags": ["bottoms", "skirt", "shoes", "boots"],
+            "img": "https://i.imgur.com/z4kQOHL.png",
             "url": ""
         },
         {
             "id": 2,
-            "name": "monochromeatic with see through top and dress pants",
+            "name": "monochromeatic skirt set",
             "price": "",
             "size": "",
-            "tags": [],
-            "img": "https://i.imgur.com/2R8XDFM.png",
+            "tags": ["set", "skirt"],
+            "img": "https://i.imgur.com/0iiZcZE.png",
             "url": ""
         },
         {
             "id": 3,
-            "name": "White crop top with open brown top",
+            "name": "Long skirt with leg out",
             "price": "",
             "size": "",
-            "tags": [],
-            "img": "https://i.imgur.com/z7I6i68.png",
+            "tags": ["skirt"],
+            "img": "https://i.imgur.com/w7yAFqf.png",
             "url": ""
         },
         {
             "id": 4,
-            "name": "Skirt with tee tucked in",
+            "name": "Skirt with leg out",
             "price": "",
             "size": "",
-            "tags": [],
-            "img": "https://i.imgur.com/Em00yUv.png",
+            "tags": ["skirt"],
+            "img": "https://i.imgur.com/kF6fKzD.png",
             "url": ""
         },
         {
             "id": 5,
+            "name": "Jean shorts with open blouse",
+            "price": "",
+            "size": "",
+            "tags": ["bottoms", "shorts", "heels", "shoes", "tops"],
+            "img": "https://i.imgur.com/dkW8Pu9.png",
+            "url": ""
+        },
+        {
+            "id": 6,
+            "name": "Maxi dress, leather jacket, combat boots",
+            "price": "",
+            "size": "",
+            "tags": ["dress", "shoes", "jacket"],
+            "img": "https://i.imgur.com/COH1KzR.png",
+            "url": ""
+        },
+        {
+            "id": 7,
+            "name": "Bustiers top and skirt",
+            "price": "",
+            "size": "",
+            "tags": ["skirt", "top", "bottom"],
+            "img": "https://i.imgur.com/g6EgOVK.png",
+            "url": ""
+        },
+        {
+            "id": 8,
+            "name": "White crop top with open brown top",
+            "price": "",
+            "size": "",
+            "tags": [],
+            "img": "https://i.imgur.com/VdWyS3A.png",
+            "url": ""
+        },
+        {
+            "id": 9,
+            "name": "Skirt with tee tucked in",
+            "price": "",
+            "size": "",
+            "tags": [],
+            "img": "https://i.imgur.com/NSt5Q6u.png",
+            "url": ""
+        },
+        {
+            "id": 10,
             "name": "Tan dress, tan coat, tan purse",
             "price": "",
             "size": "",
             "tags": [],
-            "img": "https://i.imgur.com/y9pMXQF.png",
+            "img": "https://i.imgur.com/4OqFVu3.png",
+            "url": ""
+        },
+        {
+            "id": 11,
+            "name": "Skirt with tee tucked in",
+            "price": "",
+            "size": "",
+            "tags": [],
+            "img": "https://i.imgur.com/wsbpFRm.png",
+            "url": ""
+        },
+        {
+            "id": 12,
+            "name": "Tan dress, tan coat, tan purse",
+            "price": "",
+            "size": "",
+            "tags": [],
+            "img": "https://i.imgur.com/RkcY50C.png",
             "url": ""
         }
     ]
