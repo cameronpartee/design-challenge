@@ -1,0 +1,84 @@
+/* Container has no color */
+.Container {
+  height: 100vh;
+  width: 100vw;
+}
+
+.Header {
+  background-color: azure;
+  height: 6vh;
+}
+
+.Nav {
+  background-color: rgb(255, 255, 242);
+  height: 8vh;
+}
+
+.Breadcrumbs {
+  background-color: rgb(255, 244, 228);
+  height: 5vh;
+}
+
+.Features {
+  background-color: azure;
+  height: 40vh;
+}
+
+/* Content has no color */
+.Content {
+  display: grid;
+  grid-template-columns: 15% auto;
+  padding-top: 10px;
+}
+
+.Filters {
+  background-color: rgb(255, 244, 228);
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+}
+
+.Filters > div {
+  background: none;
+  border: none;
+  font-size: medium;
+  font-weight: 600;
+}
+
+/* Grid has no color */
+.Grid {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.Item {
+  height: 350px;
+  width: 250px;
+  margin: 0px 20px 20px 20px;
+  position: relative;
+  padding-bottom: 35px;
+}
+
+.Item img:first-child {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.Item img:nth-child(2) {
+  position: absolute;
+  top: -15px;
+  right: -5px;
+  object-fit: contain;
+  border: 1px solid gray;
+  border-radius: 50%;
+  width: 20%;
+}
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+} */
