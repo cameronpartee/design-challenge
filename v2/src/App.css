@@ -4,24 +4,9 @@
   width: 100vw;
 }
 
-.Header {
-  background-color: azure;
-  height: 6vh;
-}
-
-.Nav {
-  background-color: rgb(255, 255, 242);
-  height: 8vh;
-}
-
-.Breadcrumbs {
-  background-color: rgb(255, 244, 228);
-  height: 5vh;
-}
-
 .Features {
   background-color: azure;
-  height: 40vh;
+  height: 10vh;
 }
 
 /* Content has no color */

@@ -54,9 +54,6 @@ function App() {
 
   return (
     <div className="Container">
-      <div className="Header"></div>
-      <div className="Nav"></div>
-      <div className="Breadcrumbs"></div>
       <div className="Features"></div>
       <div className="Content">
         <div className="Filters">
