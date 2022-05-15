@@ -12,12 +12,12 @@
 /* Content has no color */
 .Content {
   display: grid;
-  grid-template-columns: 15% auto;
+  grid-template-columns: 10% auto;
   padding-top: 10px;
 }
 
 .Filters {
-  background-color: rgb(255, 244, 228);
+  /* background-color: rgb(255, 244, 228); */
   display: flex;
   flex-direction: column;
   align-content: flex-start;
