@@ -1,6 +1,5 @@
 // when you are building extensions you need to be very familiar with the dom
-// TODO: LETS GET MORE FAMILIAR WITH THE DOM
-// AND ALSO BROWSER EXTENSIONS
+// LETS GET MORE FAMILIAR WITH THE DOM AND BROWSER EXTENSIONS
 
 const cartItem = {};
 
@@ -14,4 +13,5 @@ for (let i = 0; i < imgs.length; i++) {
   });
 }
 
-// TODO: HOW ARE WE STORING THIS INFORMATION? - WHERE SHOULD WE SEND IT TO?
+// AFTER ON CALL
+// HOW ARE WE STORING THIS INFORMATION? - WHERE SHOULD WE SEND IT TO?
