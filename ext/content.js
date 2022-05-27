@@ -4,13 +4,21 @@
 const cartItem = {};
 
 const imgs = document.getElementsByTagName("img");
-for (let i = 0; i < imgs.length; i++) {
-  imgs[i].addEventListener("click", function () {
-    cartItem.imgSrc = imgs[i].src;
+for (const img of imgs) {
+  // add click to get info
+  img.addEventListener("click", function () {
+    cartItem.imgSrc = img.src;
     cartItem.websiteHref = window.location.href;
     cartItem.favicon = document.querySelector("link[rel*='icon']").href;
     console.log(cartItem);
   });
+
+  var button = document.createElement("button");
+  button.innerHTML = "CAMERONPARTEE";
+  button.onclick = function () {
+    console.log("clicked");
+  };
+  document.body.appendChild(button);
 }
 
 // AFTER ON CALL
