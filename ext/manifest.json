@@ -6,7 +6,7 @@
         {
             "matches": ["<all_urls>"],
             "css": ["style.css"],
-            "js": ["Content.js"]
+            "js": ["script.js"]
         }
     ],
     "browser_action": {
