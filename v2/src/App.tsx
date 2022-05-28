@@ -54,16 +54,16 @@ function App() {
 
   return (
     <div className="Container">
-      <div className="Features"></div>
+      <div className="Header"></div>
+      <div className="Filters">
+        <div>PRICE</div>
+        <div>STORE</div>
+        <div>COLOR</div>
+        <div>CATEGORY</div>
+        <div>SEASON</div>
+        <div>BRAND</div>
+      </div>
       <div className="Content">
-        <div className="Filters">
-          <div>PRICE</div>
-          <div>STORE</div>
-          <div>COLOR</div>
-          <div>CATEGORY</div>
-          <div>SEASON</div>
-          <div>BRAND</div>
-        </div>
         <div className="Grid">
           {itemsArray.map((item) => (
             <div key={item.img} className="Item">

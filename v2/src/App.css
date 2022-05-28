@@ -4,30 +4,30 @@
   width: 100vw;
 }
 
-.Features {
+.Header {
   background-color: azure;
   height: 10vh;
-}
-
-/* Content has no color */
-.Content {
-  display: grid;
-  grid-template-columns: 10% auto;
-  padding-top: 10px;
 }
 
 .Filters {
   /* background-color: rgb(255, 244, 228); */
   display: flex;
-  flex-direction: column;
-  align-content: flex-start;
-}
+  justify-content: space-around;
+  margin: 10px 0 30px 0;
+} 
 
 .Filters > div {
   background: none;
   border: none;
   font-size: medium;
   font-weight: 600;
+}
+
+/* Content has no color */
+.Content {
+  /* display: grid;
+  grid-template-columns: 20% auto; */
+  padding-top: 10px;
 }
 
 /* Grid has no color */
@@ -39,8 +39,8 @@
 }
 
 .Item {
-  height: 350px;
-  width: 250px;
+  height: 325px;
+  width: 225px;
   margin: 0px 20px 20px 20px;
   position: relative;
   padding-bottom: 35px;
