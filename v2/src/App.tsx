@@ -2,10 +2,10 @@ import "./App.css";
 import { itemsArray } from "./data/server";
 import {
   Dropdown,
-  DropdownMenuItemType,
   IDropdownStyles,
   IDropdownOption,
 } from "@fluentui/react/lib/Dropdown";
+import { initializeIcons } from "@fluentui/react/lib/Icons";
 
 function App() {
   const dropdownStyles: Partial<IDropdownStyles> = {
@@ -17,30 +17,44 @@ function App() {
     { key: "banana", text: "Banana" },
     { key: "orange", text: "Orange", disabled: true },
     { key: "grape", text: "Grape" },
-    { key: "divider_1", text: "-", itemType: DropdownMenuItemType.Divider },
-    {
-      key: "vegetablesHeader",
-      text: "Vegetables",
-      itemType: DropdownMenuItemType.Header,
-    },
     { key: "broccoli", text: "Broccoli" },
     { key: "carrot", text: "Carrot" },
     { key: "lettuce", text: "Lettuce" },
   ];
 
+  initializeIcons();
+
   return (
     <div className="Container">
       <div className="FilterContainer">
         <div className="Filters">
-          <div>PRICE</div>
-          <div>STORE</div>
-          <div>COLOR</div>
-          <div>CATEGORY</div>
-          <div>SEASON</div>
-          <div>BRAND</div>
+          <Dropdown
+            placeholder="PRICE"
+            options={["hello", "Cameron"]}
+            styles={dropdownStyles}
+          />
+          <Dropdown
+            placeholder="STORE"
+            options={options}
+            styles={dropdownStyles}
+          />
+          <Dropdown
+            placeholder="COLOR"
+            options={options}
+            styles={dropdownStyles}
+          />
+          <Dropdown
+            placeholder="CATEGORY"
+            options={options}
+            styles={dropdownStyles}
+          />
+          <Dropdown
+            placeholder="SEASON"
+            options={options}
+            styles={dropdownStyles}
+          />
           <Dropdown
             placeholder="BRAND"
-            multiSelect
             options={options}
             styles={dropdownStyles}
           />
