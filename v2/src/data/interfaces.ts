@@ -12,3 +12,5 @@ export enum Store {
     Shein = "Shein",
     FashionNova = "FashionNova",
 };
+
+export type dropdownPlaceholders = "PRICE" | "STORE" | "COLOR" | "CATEGORY" | "SEASON" | "BRAND";
