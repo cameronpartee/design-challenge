@@ -12,10 +12,9 @@ function App() {
     dropdown: { width: 200 },
   };
 
-  const options: IDropdownOption[] = [
+  const options = [
     { key: "apple", text: "Apple" },
     { key: "banana", text: "Banana" },
-    { key: "orange", text: "Orange", disabled: true },
     { key: "grape", text: "Grape" },
     { key: "broccoli", text: "Broccoli" },
     { key: "carrot", text: "Carrot" },
@@ -29,32 +28,32 @@ function App() {
       <div className="FilterContainer">
         <div className="Filters">
           <Dropdown
-            placeholder="PRICE"
-            options={["hello", "Cameron"]}
-            styles={dropdownStyles}
-          />
-          <Dropdown
-            placeholder="STORE"
+            placeholder="Price"
             options={options}
             styles={dropdownStyles}
           />
           <Dropdown
-            placeholder="COLOR"
+            placeholder="Store"
             options={options}
             styles={dropdownStyles}
           />
           <Dropdown
-            placeholder="CATEGORY"
+            placeholder="Color"
             options={options}
             styles={dropdownStyles}
           />
           <Dropdown
-            placeholder="SEASON"
+            placeholder="Category"
             options={options}
             styles={dropdownStyles}
           />
           <Dropdown
-            placeholder="BRAND"
+            placeholder="Season"
+            options={options}
+            styles={dropdownStyles}
+          />
+          <Dropdown
+            placeholder="Brand"
             options={options}
             styles={dropdownStyles}
           />
