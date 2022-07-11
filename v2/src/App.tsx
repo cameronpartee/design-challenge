@@ -1,32 +1,32 @@
 import "./App.css";
 import { itemsArray } from "./data/server";
-import {
-  Dropdown,
-  IDropdownStyles,
-  IDropdownOption,
-} from "@fluentui/react/lib/Dropdown";
+// import {
+//   Dropdown,
+//   IDropdownStyles,
+//   IDropdownOption,
+// } from "@fluentui/react/lib/Dropdown";
 import { initializeIcons } from "@fluentui/react/lib/Icons";
 
 function App() {
-  const dropdownStyles: Partial<IDropdownStyles> = {
-    dropdown: { width: 200 },
-  };
+  // const dropdownStyles: Partial<IDropdownStyles> = {
+  //   dropdown: { width: 200 },
+  // };
 
-  const options = [
-    { key: "apple", text: "Apple" },
-    { key: "banana", text: "Banana" },
-    { key: "grape", text: "Grape" },
-    { key: "broccoli", text: "Broccoli" },
-    { key: "carrot", text: "Carrot" },
-    { key: "lettuce", text: "Lettuce" },
-  ];
+  // const options = [
+  //   { key: "apple", text: "Apple" },
+  //   { key: "banana", text: "Banana" },
+  //   { key: "grape", text: "Grape" },
+  //   { key: "broccoli", text: "Broccoli" },
+  //   { key: "carrot", text: "Carrot" },
+  //   { key: "lettuce", text: "Lettuce" },
+  // ];
 
   initializeIcons();
 
   return (
     <div className="Container">
-      <div className="FilterContainer">
-        <div className="Filters">
+      <div className="Banner">
+        {/* <div className="Filters">
           <Dropdown
             placeholder="Price"
             options={options}
@@ -57,9 +57,10 @@ function App() {
             options={options}
             styles={dropdownStyles}
           />
-        </div>
+        </div> */}
       </div>
       <div className="Content">
+        <div className="Selections"></div>
         <div className="Grid">
           {itemsArray.map((item) => (
             <div key={item.img} className="Item">
